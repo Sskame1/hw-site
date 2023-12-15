@@ -1,0 +1,93 @@
+/* container  */
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    border-bottom: 2px solid black;
+}
+
+.nav {
+    padding: 30px;
+    font-size: 20px;
+}
+
+.nav a {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    background-color: #494949;
+}
+
+.nav input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    background-color: white;
+}
+
+.nav input:focus {
+    outline: 1px solid red;
+}
+
+#logo {
+    padding-top: 30px;
+}
+
+/* main */
+/* AboutMe */
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.AboutMe h1 {
+    padding: 50px 50px 15px 50px ;
+}
+
+.AboutMe h1::after {
+    content: '.';
+    color: red;
+}
+
+.AboutMe p {
+    width: 400px;
+}
+
+/* info */
+/* card */
+
+.card {
+    padding-bottom: 30px;
+}
+
+.card h1 {
+    padding-left: 140px;
+    padding-top: 50px;   
+}
+
+.card p {
+    width: 400px;
+}
+
+img {
+    width: 400px;
+    height: 220px;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid black;
+    background-color: #3b3b3b;
+}
